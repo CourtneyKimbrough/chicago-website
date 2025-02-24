@@ -102,13 +102,15 @@ a {
     font-weight: bold;
 }
 
-/* moving onto section one finally */
+/* section one */
 
 .section-one{
     display: flex;
     flex-direction: column;
     padding-left: 100px;
     padding-right:100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .attractions{
@@ -140,6 +142,8 @@ body .section-two {
     display: block;
     padding-left: 100px;
     padding-right:100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #EF002B;
     color: white;
     min-height: 200px;
@@ -147,6 +151,13 @@ body .section-two {
     font-family: "light italic", sans-serif;
     font-weight: 300;
     font-style: italic;
+}
+
+#quote-credit {
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* section three */
@@ -179,3 +190,19 @@ body .section-two {
     text-align: center;
     padding: 20px;
 }
+
+#newsletter {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-three p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-three button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
